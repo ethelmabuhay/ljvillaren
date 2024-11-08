@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindon's</title>
+    <link href="img/ljlogo.png" rel="icon"> <!-- Favicon link -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        /* Basic reset to remove margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            flex-direction: column; /* Align items vertically (image on top, text below) */
+        }
+
+        /* Container settings */
+        .container {
+            width: 80%;               /* The container takes up 80% of the viewport width */
+            height: auto;             /* Height adjusts to the content */
+            display: flex;            /* Enables flexbox */
+            justify-content: center;  /* Centers the content horizontally */
+            align-items: center;      /* Centers the content vertically */
+            text-align: center;       /* Centers text within the container */
+        }
+
+        /* Image styling */
+        .image {
+            width: 700px;          /* Ensures the image fits within the container's width */
+            height: 500px;        /* Limits the height of the image */
+            object-fit: contain;  /* Maintains the image's aspect ratio */
+        }
+
+        /* Text container styling */
+        .text {
+            margin-top: 20px; /* Adds space between the image and the text */
+            display: flex;
+            flex-direction: column; /* Stack the text vertically */
+            justify-content: center; /* Centers text horizontally */
+            align-items: center; /* Centers text vertically within the container */
+            text-align: center;  /* Ensures the text inside <h1> and <h3> are centered */
+        }
+
+        /* Style the text */
+        h1 {
+            font-size: 2.5rem;    /* Set the font size for the main heading */
+            font-family: Poppins;
+            font-weight: bolder;
+            color: #2c3a50;
+        }
+        
+        h3 {
+            font-size: 1.2rem;  /* Set the font size for the subheading */
+            font-family: Poppins;
+            font-weight: bolder;
+            color: #2c3a50;
+            margin-top: 10px;
+        }
+
+        h3 span {
+            font-weight: bold; 
+            font-size: 1.2rem;  /* Set the font size for the subheading */
+            font-family: Poppins;
+            font-weight: bolder;
+            color: #ff0157; /* Optional: Makes "GOAL" bold in the subheading */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Replace 'your-image.jpg' with the actual path to your image -->
+        <img src="img/icon1.png" alt="Fish Image" class="image">
+    </div>
+    
+    <div class="text">
+        <!-- Centered text content -->
+        <h1>This page is still under development.</h1>
+        <h3>By G<span>OA</span>L family</h3>
+    </div>
+</body>
+</html>

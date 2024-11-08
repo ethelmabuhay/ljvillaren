@@ -1,0 +1,36 @@
+/* Basic reset for margins/padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the container */
+.container {
+    width: 80%;              /* The container takes up 80% of the viewport width */
+    height: 80%;             /* The container takes up 80% of the viewport height */
+    display: flex;           /* Enables flexbox for centering content */
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;     /* Centers the image vertically */
+    border: 2px solid #333;  /* Optional: Adds a border around the container */
+}
+.container img{
+
+        width: 80%;              /* The container takes up 80% of the viewport width */
+        height: 80%;             /* The container takes up 80% of the viewport height */
+        display: flex;           /* Enables flexbox for centering content */
+        justify-content: center; /* Centers the image horizontally */
+        align-items: center;     /* Centers the image vertically */
+        border: 2px solid #333;  /* Optional: Adds a border around the container */
+}
+
+/* Styling for the image */
+.image {
+    max-width: 100%;         /* Ensures the image doesn't overflow the container horizontally */
+    max-height: 100%;        /* Ensures the image doesn't overflow the container vertically */
+    object-fit: contain;     /* Maintains the image's aspect ratio and prevents stretching */
+}
